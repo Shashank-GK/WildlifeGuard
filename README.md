@@ -44,8 +44,8 @@ The project addresses the following key objectives:
 ## How to Use
 
 1. **Clone the Repository**: https://github.com/Shashank-GK/WildlifeGuard.git
-2. 
-3. **Install Dependencies**: 
+    
+2. **Install Dependencies**: 
 - Navigate to the project directory:
   ```
   cd WildlifeGuard
