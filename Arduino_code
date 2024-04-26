@@ -1,0 +1,62 @@
+#include<SoftwareSerial.h>
+SoftwareSerial Serial1(6,7);
+
+int ir=2;
+int fire=15;
+int buzzer=14;
+int led=3;
+
+
+void setup() {
+  Serial.begin(9600);
+  Serial1.begin(9600);
+  pinMode(ir,INPUT);
+  pinMode(fire,INPUT);
+  pinMode(led,OUTPUT);
+  pinMode(buzzer,OUTPUT);
+
+}
+void loop()
+{
+  if(Serial1.available()>0)
+  {
+    char ch=Serial1.read();
+    Serial.println("ch="+String(ch));
+    if(ch=='A')
+    {
+    Serial.println("$ANIMAL DETECTED#");
+    digitalWrite(led,HIGH);
+    delay(2000);
+    digitalWrite(led,LOW); 
+    }
+    else if(ch=='F')
+    {
+    Serial.println("$FIRE DETECTED#");
+    digitalWrite(buzzer,HIGH);
+    delay(2000);
+    digitalWrite(buzzer,LOW);
+    }
+  }
+  sensor_check();
+}
+void sensor_check() {
+  int irvalue=digitalRead(ir);
+  int firevalue=digitalRead(fire);
+  Serial.println("irvalue="+String(irvalue));
+  Serial.println("firevalue="+String(firevalue));
+  if(irvalue==LOW)
+  {
+    Serial.println("$ANIMAL DETECTED#");
+    digitalWrite(led,HIGH);
+    delay(2000);
+    digitalWrite(led,LOW);
+  }
+  if(firevalue==HIGH)
+  {
+    Serial.println("$FIRE DETECTED#");
+    digitalWrite(buzzer,HIGH);
+    delay(2000);
+    digitalWrite(buzzer,LOW);
+  }
+
+}
