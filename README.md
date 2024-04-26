@@ -30,13 +30,13 @@ The project addresses the following key objectives:
 ## Results
 
 - **Animal Detection**:
-- 
+ 
   ![Animal Detection Result](https://user-images.githubusercontent.com/18729104/226520439-d9f1ddba-e064-4984-9ec1-b01b3c70df8f.jpg)
   - High accuracy in detecting various wildlife species.
   - Real-time monitoring of wildlife presence and behavior.
   
 - **Forest Fire Detection**:
-- 
+ 
   ![Forest Fire Detection Result](https://assets.website-files.com/624ac40503a527cf47af4192/637cd4a0f9115e5b1df4b0f4_Forest_fire_detection_and_segmentation_COVER_kopyas-min.png)
   - Timely detection of forest fires using image analysis techniques.
   - Immediate alerts to relevant authorities for rapid response.
