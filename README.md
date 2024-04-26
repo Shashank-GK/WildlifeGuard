@@ -35,14 +35,14 @@ The project aims to address the following key objectives:
 
 ### Animal Detection
 
-![Animal Detection](animal_detection_result.jpg)
+![Animal Detection](https://user-images.githubusercontent.com/18729104/226520439-d9f1ddba-e064-4984-9ec1-b01b3c70df8f.jpg)
+![Animal Detection](https://iq.opengenus.org/content/images/2022/03/inf.png)
 
 *Image: Example result of animal detection in a captured image.*
 
 ### Fire Detection
 
-![Fire Detection](fire_detection_result.jpg)
-
+![Fire Detection](https://assets.website-files.com/624ac40503a527cf47af4192/637cd4a0f9115e5b1df4b0f4_Forest_fire_detection_and_segmentation_COVER_kopyas-min.png)
 *Image: Example result of fire detection in a captured image.*
 
 ## How to Use
