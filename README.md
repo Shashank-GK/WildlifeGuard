@@ -68,7 +68,3 @@ The project aims to address the following key objectives:
 - Smith, J., et al. (2019). Deep Learning for Wildlife Monitoring and Conservation: Recent Approaches and Future Directions. Journal of Wildlife Management, 83(4), 924-937.
 - Doe, J. (2021). Forest Fire Detection using Image Processing Techniques. International Conference on Computer Vision, 123-135.
 
-## Acknowledgements
-
-We acknowledge the support of [East West Institute of Technology] for providing resources for this project.
-
